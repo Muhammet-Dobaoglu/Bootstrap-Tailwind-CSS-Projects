@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>LinkedIn</title>
+    </head>
+
+    <body>
+
+        <!-------------------------- NAVBAR-START ----------------------------->
+    
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light d-flex flex-row align-items-center">
+            <div class="container">
+            <a class="navbar-brand ml-0 ml-lg-0 pl-0 pl-lg-0" href="#">
+                <i class="fa-brands fa-linkedin" style="color: #0a66c2; font-size: 2.4rem"></i>
+            </a>
+
+            <form class="form-inline ml-2 d-none d-sm-block">
+                <input class="form-control mr-sm-2" type="search" style="font-family:Arial, FontAwesome; font-weight: 600;" placeholder="&#xF002;   Arama Yap" aria-label="Search">
+            </form>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+
+                    <li>
+                        <form class="form-inline ml-1 d-sm-none m-1 m-sm-none" style="width: 10rem;">
+                            <input class="form-control mr-sm-2" type="search" style="font-family:Arial, FontAwesome; font-weight: 600;" placeholder="&#xF002;   Arama Yap" aria-label="Search">
+                        </form>
+                    </li>
+
+                    <li class="nav-item active px-2 px-lg-1">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-house-chimney"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Ana Sayfa</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 px-lg-1">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-user-group"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Ağım</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 px-lg-1">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 d-lg-none d-xl-block"><b>İş İlanları</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 px-lg-1">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Mesajlaşma</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item px-2 px-lg-1">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-bell"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Bildirimler</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item pl-1 pr-3 mr-3 border-right d-none d-lg-block">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <img class="rounded-circle" src="https://media.licdn.com/dms/image/D4D03AQFbCnQ9XIWboA/profile-displayphoto-shrink_400_400/0/1673164592745?e=1681948800&v=beta&t=IxxYSEZjpfAk6BuVJPBWbYW7fn_keE7FjUr5tN3wBcg" style="width: 19px; height: 19px;" alt="profile">
+                            <span class="small ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Ben</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item pl-1 pr-3 mr-3 d-lg-none">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <img class="rounded-circle" src="https://picsum.photos/id/290/19/19" alt="profile">
+                            <span class="small ml-2 ml-lg-0 d-lg-none d-xl-block"><b>Ben</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item pr-2 pr-lg-1 ml-2 ml-lg-0">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-clipboard"></i>
+                            <span class="small pt-1 ml-2 ml-lg-0 pr-1 pr-lg-0 d-lg-none d-xl-block"><b>İş</b></span>
+                        </a>
+                    </li>
+                    <li class="nav-item pl-2 pl-lg-2">
+                        <a class="nav-link d-flex flex-row flex-lg-column align-items-center" href="#">
+                            <i class="fa-solid fa-chalkboard pr-1 pr-lg-0"></i>
+                            <span class="small pt-1 pl-1 pl-lg-0 d-lg-none d-xl-block"><b>İş İlanı Yayınla</b></span>
+                        </a>
+                    </li>  
+                </ul>
+            </div>
+        </div>
+        </nav>
+
+        <!-------------------------- NAVBAR-START ----------------------------->
+
+        <!-------------------------- MIDDLEAREA-START ----------------------------->
+
+        <div class="container">
+            <div class="row mt-4 mb-2">
+
+                <!------------ LEFT-PANEL ----------->
+
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-header d-flex justify-content-center" style="background-image: url(https://picsum.photos/id/385/600/400); height: 53px;">
+                          <a href="#"><img src="https://media.licdn.com/dms/image/D4D03AQFbCnQ9XIWboA/profile-displayphoto-shrink_400_400/0/1673164592745?e=1681948800&v=beta&t=IxxYSEZjpfAk6BuVJPBWbYW7fn_keE7FjUr5tN3wBcg" class="rounded-circle" style="width: 70px; height: 70px;"/></a>
+                        </div>
+                        <div class="card-body">
+                          <p class="card-title header mt-4 d-flex justify-content-center text-center">
+                            <a href="#" target="_blank" style="color: #212529;"><b>MUHAMMET DOBAOĞLU</b></a>
+                          </p>
+                          <div class="d-flex justify-content-center person-info">
+                            Full Stack Developer
+                            <br>      
+                          </div>
+                          <hr>
+                          <div class="card-text">
+                            <div>
+                                <span class="view">
+                                    Profilinizi kimler görüntüledi
+                                    <span class="float-right view3 mt-1 mt-md-2 mt-xl-1" style="color: #0a66c2">335</span>
+                                </span>      
+                            </div>
+                            <div>
+                                <span class="view">
+                                    Yayınınız için görüntüleme
+                                    <span class="float-right view3 mt-2 mt-md-2 mt-xl-1" style="color: #0a66c2">164</span>
+                                </span>
+                                
+                            </div>
+                          </div>
+                        </div>
+                        <a href="#" style="text-decoration: none; color: #5f5f5f;">
+                            <div class="card-footer bg-custom">
+                                <i class="fas fa-bookmark"></i>
+                                <span class="mb-4 ml-1">Ögelerim</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card mt-3">
+                        <div class="row no-gutters p-2">
+                          <div class="col-md-2 d-none d-md-flex align-items-center">
+                            <img src="https://picsum.photos/id/182/400/400" class="card-img" alt="">
+                          </div>
+                          <div class="col-md-10 d-flex align-items-center">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">Kablosuz Beyin</h5>
+                              <p class="card-text" style="font-size: 11px; font-weight: bold; color: gray;">Sayfa Bildirimleri<span class="float-right" style="color: #0a66c2; font-size: 11px; font-weight: bold;">15</span></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row no-gutters p-2">
+                          <div class="col-md-2 d-none d-md-flex align-items-center">
+                            <img src="https://picsum.photos/id/53/400/400" class="card-img" alt="">
+                          </div>
+                          <div class="col-md-10 d-flex align-items-center">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 14px; font-weight: bold;">Front End Dev</h5>
+                              <p class="card-text" style="font-size: 11px; font-weight: bold; color: gray;">Sayfa Bildirimleri<span class="float-right" style="color: #0a66c2; font-size: 11px; font-weight: bold;">8</span></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card mt-3 make-me-sticky overflow-auto">
+                        <div class="card-body d-flex flex-column justify-content-around">
+                          <h6 class="card-title view2">En Yeni</h6>
+                          <a class="view mt-3" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">patikadev</span></i></p>
+                          </a>
+                          <a class="view" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">front-end</span></i></p>
+                          </a>
+                          <a class="view" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">html</span></i></p>
+                          </a>
+                          <a class="view" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">css</span></i></p>
+                          </a>
+                          <a class="view" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">bootstrap</span></i></p>
+                          </a>
+                          <a class="categories" href="#">
+                            <p>Gruplar</p>
+                          </a>
+                          <a class="categories" href="#">
+                            <p>Etkinlikler<span class="float-right mr-2"><i class="fa-regular fa-plus"></i></span></p>
+                          </a>
+                          <a class="categories" href="#">
+                            <p>Takip edilen hashtaglar</p>
+                          </a>
+                          <a class="view mt-2" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">patikadev</span></i></p>
+                          </a>
+                          <a class="view" href="#" style="color: #5f5f5f;">
+                            <p><i class="fa-regular fa-hashtag"> <span class="view">front-end</span></i></p>
+                          </a>
+                        </div>
+                        <a class="text-dark" style="text-decoration: none;" href="#">
+                            <div class="card-footer text-center bg-custom">
+                                Daha fazla keşfet
+                            </div>
+                        </a>
+                      </div>
+
+                </div>
+
+                <!------------ MIDDLE-PANEL ----------->
+
+                <div class="col-sm-12 col-md-8 col-lg-6 mt-3 mt-md-0 ">
+                    <div class="card w-100">
+                        <div class="card-body">
+                        
+                            <form class="form-inline">
+                                <img class="rounded-circle mx-auto mr-sm-1 ml-sm-auto d-none d-sm-block" src="https://media.licdn.com/dms/image/D4D03AQFbCnQ9XIWboA/profile-displayphoto-shrink_400_400/0/1673164592745?e=1681948800&v=beta&t=IxxYSEZjpfAk6BuVJPBWbYW7fn_keE7FjUr5tN3wBcg" style="width: 70px; height: 70px;"alt="">
+                                
+                                <input class="form-control rounded-pill w-75 mx-auto ml-sm-1 mr-sm-auto" type="search" style="font-family:Arial, FontAwesome; font-weight: 600; font-size: 15px;" placeholder="&#xF044;   Bir gönderi başlat" aria-label="Search">
+                            </form>
+                            
+                            <div class="text-center mt-3">
+                                <span class="mx-2">
+                                    <button type="button" class="btn btn-sm border-0 button-bg rounded">
+                                        <img src="photomin.png" alt="" width="20px">
+                                        <span class="d-none d-sm-inline-block d-md-none d-xl-inline-block">Fotoğraf</span>
+                                    </button>
+                                </span>
+                                <span class="mx-2">
+                                    <button type="button" class="btn btn-sm border-0 button-bg rounded">
+                                        <img src="videomin.png" alt="" width="20px">
+                                        <span class="d-none d-sm-inline-block d-md-none d-xl-inline-block">Video</span>
+                                    </button>
+                                </span>
+                                <span class="mx-2">
+                                    <button type="button" class="btn btn-sm border-0 button-bg rounded">
+                                        <img src="calendarmin.png" alt="" width="20px">
+                                        <span class="d-none d-sm-inline-block d-md-none d-xl-inline-block">Etkinlik</span>
+                                    </button>
+                                </span>
+                                <span class="mx-2">
+                                    <button type="button" class="btn btn-sm border-0 button-bg rounded">
+                                        <img src="notemin.png" alt="" width="20px">
+                                        <span class="d-none d-sm-inline-block d-md-none d-xl-inline-block">Yazı yaz</span>
+                                    </button>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="card text-center mt-3">
+                        <div class="card-header postcard-bg border-0">    
+                            <div class="media text-left mb-3">
+                                <img src="https://media.licdn.com/dms/image/D4D03AQFpk4i0Lin1Rw/profile-displayphoto-shrink_400_400/0/1674826431760?e=1681948800&v=beta&t=1Lej9r3L4hwLpEtx7LbMXmGdziD-1L81J0RMf9M6Pj4" class="align-self-center mr-3 rounded-circle" style="cursor: pointer; width: 60px; height: 60px;""  alt="">
+                                <div class="media-body mt-3 align-self-center" style="line-height: 15px;">
+                                  <span class="posttext" style="cursor: pointer; color: #212529;">Atakan Kaşbaşı<span class="float-right"><i class="fas fa-ellipsis-h fa-md"></i></span></span>
+                                  <br>
+                                  <span class="posttext2">I learn C#</span>
+                                  <p class="posttext2">12a <i class="fas fa-globe-americas fa-sm"></i></p>
+                                </div>
+                            </div>
+                            <div class="row ml-0 ml-sm-1 post-info text-left">
+                                Burada bulunabildiğim için çok şanslıyım!
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img class="w-100 rounded" src="https://panel.gelisim.edu.tr/assets/2020/resimler/iguwebsite/%C4%B0stanbul-Geli%C5%9Fim-%C3%9Cniversitesi-2,_f8252d1a914240d1b93159fc790c1c1e_0bb7fd618b83410a8f2551d353154813.jpg" alt="">
+                            <ul class="list-inline text-left mt-1 ml-2">
+                                <li class="list-inline-item" style="color:#1489ce; opacity: .6;"><i class="fa-solid fa-thumbs-up"></i></li>
+                                <li class="list-inline-item" style="color:#1f9625; opacity: .6;"><i class="fa-sharp fa-solid fa-comment"></i></li>
+                                <li class="list-inline-item" style="color:#f05454; opacity: .6;">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span class="text-muted" style="font-size: .8rem;">124</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer postcard-bg">
+                            <div class="text-left">
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        <span class="d-none d-sm-inline-block">Beğen</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-comment"></i>
+                                        <span class="d-none d-sm-inline-block">Yorum Yap</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-share"></i>
+                                        <span class="d-none d-sm-inline-block">Paylaş</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="d-none d-sm-inline-block">Gönder</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-center mt-3">
+                        <div class="card-header postcard-bg border-0">    
+                            <div class="media text-left mb-3">
+                                <img src="https://media.licdn.com/dms/image/C4D03AQE_6jAit2QBOQ/profile-displayphoto-shrink_200_200/0/1625175894926?e=1677715200&v=beta&t=NrLj3xlUTWdxXyn2HgYFtg1vwtrevKzEdFwi8NMI6BY" class="align-self-center mr-3 rounded-circle" style="cursor: pointer; width: 70px; height: 70px;" alt="">
+                                <div class="media-body mt-3 align-self-center" style="line-height: 15px;">
+                                  <span class="posttext" style="cursor: pointer; color: #212529;">Mehmet Parlak<span class="float-right"><i class="fas fa-ellipsis-h fa-md"></i></span></span>
+                                  <br>
+                                  <span class="posttext2">Elektrik Elektronik Mühendisi | BEDAŞ...</span>
+                                  <p class="posttext2">10a <i class="fas fa-globe-americas fa-sm"></i></p>
+                                </div>
+                            </div>
+                            <div class="row ml-0 ml-sm-1 post-info text-left">
+                                They have done great things! Tebrikler Kodluyoruz!
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img class="w-100 rounded" src="https://global-uploads.webflow.com/6097e0eca1e875de53031ff6/617003e95ad6fc040e0f20ab_akbank%20tw%20ln%20(1).png" style="width: 600px; height: 300px;"alt="">
+                            <ul class="list-inline text-left mt-1 ml-2">
+                                <li class="list-inline-item" style="color:#1489ce; opacity: .6;"><i class="fa-solid fa-thumbs-up"></i></li>
+                                <li class="list-inline-item" style="color:#1f9625; opacity: .6;"><i class="fa-sharp fa-solid fa-comment"></i></li>
+                                <li class="list-inline-item" style="color:#f05454; opacity: .6;">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span class="text-muted" style="font-size: .8rem;">278</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer postcard-bg">
+                            <div class="text-left">
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        <span class="d-none d-sm-inline-block">Beğen</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-comment"></i>
+                                        <span class="d-none d-sm-inline-block">Yorum Yap</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-share"></i>
+                                        <span class="d-none d-sm-inline-block">Paylaş</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="d-none d-sm-inline-block">Gönder</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-center mt-3">
+                        <div class="card-header postcard-bg border-0">    
+                            <div class="media text-left mb-3">
+                                <img src="https://media.licdn.com/dms/image/C4D03AQENLehGPoXwKA/profile-displayphoto-shrink_200_200/0/1654861982409?e=1677715200&v=beta&t=vQYNRdCV-lgBX8_MbI-nYPtiX0PDqEp6gWFPr_9zQOM" class="align-self-center mr-3 rounded-circle" style="cursor: pointer; width: 60px; height: 60px;" alt="">
+                                <div class="media-body mt-3 align-self-center" style="line-height: 15px;">
+                                  <span class="posttext" style="cursor: pointer; color: #212529;">Ali Doğan<span class="float-right"><i class="fas fa-ellipsis-h fa-md"></i></span></span>
+                                  <br>
+                                  <span class="posttext2">Co-founder Dogan Electrics</span>
+                                  <p class="posttext2">9a <i class="fas fa-globe-americas fa-sm"></i></p>
+                                </div>
+                            </div>
+                            <div class="row ml-0 ml-sm-1 post-info text-left">
+                                Software Team'e katılmak isteyenleri şöyle alalım..
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img class="w-100 rounded" src="https://kodytechnolab.com/img/blog/big/improve-effectiveness-software-development-team.jpg" style="width: 300px; height: 300px;" alt="">
+                            <ul class="list-inline text-left mt-1 ml-2">
+                                <li class="list-inline-item" style="color:#1489ce; opacity: .6;"><i class="fa-solid fa-thumbs-up"></i></li>
+                                <li class="list-inline-item" style="color:#1f9625; opacity: .6;"><i class="fa-sharp fa-solid fa-comment"></i></li>
+                                <li class="list-inline-item" style="color:#f05454; opacity: .6;">
+                                    <i class="fa-solid fa-heart"></i>
+                                    <span class="text-muted" style="font-size: .8rem;">305</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="card-footer postcard-bg">
+                            <div class="text-left">
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-thumbs-up"></i>
+                                        <span class="d-none d-sm-inline-block">Beğen</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-regular fa-comment"></i>
+                                        <span class="d-none d-sm-inline-block">Yorum Yap</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-share"></i>
+                                        <span class="d-none d-sm-inline-block">Paylaş</span>
+                                    </button>
+                                </span>
+                                <span>
+                                    <button type="button" class="btn btn-sm button-bg rounded">
+                                        <i class="fa-solid fa-paper-plane"></i>
+                                        <span class="d-none d-sm-inline-block">Gönder</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+
+                <!------------ RIGHT-PANEL ----------->
+
+                <div class="col-sm-12 col-md-4 col-lg-3">
+                    
+                    <div class="card mt-3 mt-lg-0">
+                        <div class="card-body">
+                            <h5 class="card-h5">Akışınıza ekleyin <span class="float-right"><i class="fa-solid fa-circle-exclamation"></i></span></h5>
+                            <ul class="list-unstyled mt-4 card-list">
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://assets.codepen.io/1584356/codepen.png" alt="" style="width: 40px; height: 40px;"> CodePen</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1 mt-md-1 mt-lg-2 mt-xl-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://avatars.githubusercontent.com/u/30476529?s=280&v=4" alt="" style="width: 40px; height: 40px;"> Kodluyoruz</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1 mt-md-1 mt-lg-2 mt-xl-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a class="card-list" href="#"><img class="rounded-circle" src="https://global-uploads.webflow.com/6097e0eca1e87557da031fef/63739a32259566fc9428cb1d_Deneme-p-500.png" alt="" style="width: 40px; height: 40px;"> Patika.Dev</a>
+                                        <span class="btn-right btn btn-outline-primary btn-sm rounded-pill float-right mt-1 mt-md-1 mt-lg-2 mt-xl-1">+ Takip Et</span>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+
+                      <div class="card mt-3">
+                        <div class="card-body">
+                            <h6 class="card-h6">Bugünün en çok izlenen eğitimleri<span class="float-right"><i class="fa-solid fa-circle-exclamation"></i></span></h6>
+                            
+                            <h6 class="card-title card-title-right ml-1 mt-4">1. The Six Morning Habits of High...</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Pete Mockatais</h6>
+
+                            <h6 class="card-title card-title-right ml-1 mt-3">2. Onconscious Blas</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Abdullatif Doğan</h6>
+                        
+                            <h6 class="card-title card-title-right ml-1 mt-3">1. Critical Thinking for Better...</h6>
+                            <h6 class="card-subtitle card-subtitle-right mb-1 ml-3 text-muted"> Furkan Omrak</h6>
+
+                            <a class="right-card-under text-center" href="#"><h6 class="right-card-under mt-4">Linkedin Learning'de daha fazlasını göster</h6></a>
+                        </div>
+                      </div>
+
+                      <div class="card border-0 mt-1 make-me-sticky2 overflow-auto">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 d-flex flex-row flex-wrap text-center align-items-center justify-content-center">
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Hakkında</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Erişilebilirlik</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Yardım Merkezi</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Gizlilik ve Koşullar</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Reklam Tercihleri</p>
+                                    </a>
+                                    <a href="#" class="right-link card-text text-muted px-1">
+                                        <p class="right-link">Reklam</p>
+                                    </a>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <h5 class="footer-lg">Linked <span style="font-size: .8rem;"><i class="fa-brands fa-linkedin"></i></span><span class="text-muted ml-2 footer-txt">Linkedin Corporation <i class="fa-regular fa-copyright"></i> 2022</span>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------- MIDDLEAREA-END ----------------------------->
+
+        <!-------------------------- MESSENGER-START ----------------------------->
+
+        <div class="container position-sticky fixed-bottom d-none d-xl-block">
+            <div class="row">
+                <div class="btn-group dropup ml-auto w-25 border-custom">
+                    <button type="button" class="btn-message btn btn-outline-secondary border-0 text-left rounded" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="rounded-circle" src="https://media.licdn.com/dms/image/D4D35AQEkevv0D1HmrQ/profile-framedphoto-shrink_200_200/0/1669452208977?e=1672736400&v=beta&t=tkkJ2sHB1o9nksXT3D7ZAR0QeuuEP5yqvpAcj4CXcB8" style="width: 30px; height: 30px;" alt="">
+                        <strong class="ml-1" style="font-size: 13px;">Mesajlaşma</strong>
+                        <span class="float-right"><i class="fas fa-chevron-up fa-sm ml-3"></i></span>
+                        <span class="float-right"><i class="fas fa-ellipsis-h fa-sm ml-3"></i></span>
+                        <span class="float-right"><i class="fa-solid fa-pen-to-square fa-sm ml-3"></i></span>      
+                    </button>
+
+                    <div class="dropdown-menu w-100">
+                        <div class="card">
+                            <div class="card-header">
+                              <strong>Mesajlar</strong>
+                            </div>
+                            <ul class="list-group list-group-flush message-list">
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        Atakan Kaşbaşı 
+                                        <span class="float-right">
+                                            <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge text-light">4</span>
+                                            </button>
+                                        </span>
+                                     </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        M.Mustafa Yurdakul 
+                                        <span class="float-right">
+                                            <!-- <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge rounded-circle">1</span>
+                                            </button> -->
+                                        </span>
+                                     </a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="#">
+                                        Abdurrahman Öztürk 
+                                        <span class="float-right">
+                                            <button style="pointer-events: none;" type="button" class="btn btn-sm btn-primary rounded-pill">
+                                                <span class="txt-badge rounded-circle">2</span>
+                                            </button>
+                                        </span>
+                                     </a>
+                                </li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------------- MESSENGER-END ----------------------------->
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+        <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+        -->
+    </body>
+</html>
