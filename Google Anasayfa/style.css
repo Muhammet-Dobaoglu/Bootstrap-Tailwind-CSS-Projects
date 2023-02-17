@@ -1,0 +1,137 @@
+body {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.right-bar {
+    float: left;
+    margin: 10px 10px;
+    text-align: right;
+    padding: 5px;
+}
+.right-bar a:visited {
+    color:black ;
+}
+#gmail {
+    padding: 10px;
+    text-decoration: none;
+}
+#görseller {
+    padding: 10px;
+    text-decoration: none;
+}
+#aps {
+    padding: 10px;
+}
+#m {
+    padding: 10px;
+}
+section {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 100px auto 0 ;
+}
+.search-bar{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 584px;
+margin: 0 auto;
+padding: 6px;
+border:1px solid #dfe1e5 ;
+border-radius: 24px;
+height: 44px;
+padding: 5px 8px 5px 14px;
+flex-direction: row;
+box-sizing: border-box;
+}
+input {
+    display: flex;
+    flex:1;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    height: 34px;
+  }
+  .buttons{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+  }
+  .buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 0 8px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .buttons button:hover{
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+  .footer-1{
+    margin:270px 16px auto;
+    display: block;
+    background-color: #dadce0;
+    text-decoration: none;
+    bottom:0px;
+    position:fixed;
+  }
+  .footer-2 div{
+    text-align: center;
+    background-color: #dadce0;
+    display: block;
+    text-decoration: none;
+    bottom:0px;
+    position:fixed;
+  }
+  .sol-footer{
+    text-align: left;
+    float: left;
+    margin:30px auto;
+    display: block;
+    text-decoration: none;
+  }
+  .orta-footer{
+    text-align: center;
+    margin:auto 20px auto 30px;
+    padding: 9px 280px;
+  }
+  .sag-footer{
+    text-align:right;
+    float: right;
+  }
+  .sol-footer a{
+    text-decoration: none;
+    color: #3c4043;
+  }
+  .sag-footer a{
+    text-decoration: none;
+    color:#3c4043;
+  }
+  /* box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124; */
+  /* min-width: 54px; */
+  /* text-align: center; */
+  /* cursor: pointer; */
+  /* user-select: none; */
