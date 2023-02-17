@@ -1,13 +1,3 @@
-# css-homeworks
-My Patika.dev Profile: **https://app.patika.dev/emrebanzaroglu**
-
-Patika.dev **www.patika.dev** 
-
-# css-homework-1
-Patika.dev eğitimleri sonunda herhangi bir alanda hazırlamam istenen bir web sayfası tasarladım.
-
-# css-homework-2
 Patika.dev eğitimleri sonunda Google'ın ilk versiyonunu tasarladım.
 
-# css-homework-3
-Patika.dev eğitimleri sonunda Google'ın günümüz versiyonunu tasarladım.
+<img width="988" alt="Ekran Resmi 2023-02-17 12 26 28" src="https://user-images.githubusercontent.com/106467744/219607463-46b555b8-4ca5-4f53-8c1a-55d5f6efa3cb.png">
